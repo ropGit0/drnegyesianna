@@ -1,0 +1,54 @@
+@keyframes nightModeStart {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(45deg);
+    }
+
+}
+
+@keyframes nightModeEnd {
+    0% {
+        transform: rotateZ(315deg);
+    }
+    
+    99.99% {
+        transform: rotateZ(360deg);
+    }
+    
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes scroller {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-44vw * 21));
+    }
+}
+
+@keyframes scrollerMobile {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100vw * 21.85));
+    }
+}
+
+@keyframes dropdown {
+    from {
+        top: -100vw;
+    }
+
+    to {
+        top: 22vw;
+    }
+}

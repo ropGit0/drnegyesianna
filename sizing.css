@@ -1,0 +1,647 @@
+@media only screen and (hover: none) and (pointer: coarse) {
+
+    section {
+        height: 200vw !important;
+    }
+    
+    .anchor {
+        top: -20vw;
+    }
+    
+    .h2 {
+        height: 13%;
+        width: 100%;
+        padding: 8vw 8vw 0vw 8vw;
+        font-size: 6vw;
+    }
+    
+    .h2 h2 {
+        padding: 1vw 0px 0px;
+        margin: 0px;
+        width: 70%;
+        margin: 0px auto;
+        background-color: #9ae19d;
+        border-radius: 5vw;
+        box-shadow: 0px 0px 3vw 1.5vw #3C5A14;
+    }
+    
+    .hr {
+        height: 0.5vw !important;
+        border: 3px dashed black;
+    }
+    
+    button {
+        border-radius: 2vw;
+        border: 0.4vw outset black;
+    }
+    
+    /*---------------NAV---------------*/
+    
+    nav {
+        height: 20vw;
+        z-index: 10;
+    }
+
+    
+    #nav-design {
+        width: 100%;
+    }
+    
+    #nav-title {
+        margin-top: 4.5vw;
+        font-size: 4.5vw;
+    }
+    
+    #nav-logo {
+        margin-right: 1.5vw;
+        height: 15vw;
+        width: 15vw;
+        box-shadow: 0px 0px 1vw 0.8vw rgba(255, 255, 255, .5);
+    }
+    
+    #nav-buttons #night-mode {
+        margin: 1vw 4vw 0px 0px;
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .dropmenu {
+        display: block;
+    }
+    
+    #nav-buttons ul {
+        width: 100%;
+        height: 90vw;
+        border-radius: 0px 0px 10vw 10vw;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        top: -100vw;
+        right: 0vw;
+        transition: 0s !important;
+        background-color: white;
+    }
+
+    .nighttime #nav-buttons ul {
+        background-color: #14213D;
+    }
+    
+    #nav-buttons ul li {
+        width: 90vw;
+        height: 15vw;
+        font-size: 6.3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5vw 0px;
+        border-radius: 5vw;
+    }
+
+
+    /*---------------Kezdőlap---------------*/
+    
+    #start-page {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vw;
+        padding: 0px;
+    }
+    
+    #start-page>div {
+        width: 95%;
+        height: 80vw !important;
+        text-align: justify;
+    }
+    
+    .start-img {
+        width: 70vw;
+        height: 70vw;
+        background-size: 100%;
+    }
+    
+    .start-text h1 {
+        font-size: 11vw;
+        text-align: center;
+    }
+    
+    .start-text h3 {
+        font-size: 5.5vw;
+    }
+    
+    #start-page button {
+        display: none;
+    }
+    
+    /*--------------------------RÓLAM--------------------------*/
+    
+    #aboutme {
+        height: 240vw !important;
+    }
+    
+    .about-div {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .about-img {
+        display: none;
+    }
+    
+    .about-text {
+        width: 100%;
+        margin: 0px;
+        padding: 0vw 5vw;
+    }
+    
+    .about-text p {
+        font-size: 4vw;
+        margin-bottom: 6vw;
+    }
+    
+    .about-text h4 {
+        font-size: 4vw;
+        text-align: center;
+        margin: 3vw 0vw;
+    }
+    
+    #vegzett-ul {
+        height: 40vw;
+        margin-left: 12vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    #vegzett-ul ul {
+        padding: 0vw;
+    }
+    
+    #vegzett-ul ul li {
+        margin: 0px;
+        font-size: 4vw;
+    }
+    
+    #vegzett-ul li::before {
+        padding-right: 4vw;
+        content: '';
+        background-image: url("images/leaf.png");
+        height: 10vw !important;
+        width: 10vw !important;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 0vw 1vw;
+    }
+    
+    /*--------------------------TERÁPIÁK--------------------------*/
+    
+    #therapies {
+        height: 300vw !important;
+    }
+    
+    #therapies .h2 {
+        height: 10%;
+    }
+    
+    .therapies-main {
+        width: 100%;
+        height: 260vw;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .therapies-grid {
+        padding: 2vw 1vw 0vw;
+        width: 100%;
+        height: 180vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 55vw);
+        gap: 0.5vw 1vw;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: space-around;
+        overflow-wrap: break-word;
+    }
+    
+    .therapies-card {
+        margin: 1vw;
+        overflow: hidden;
+        border-radius: 5vw;
+        border: 1.5vw solid #87986A;
+    }
+    
+    .therapies-text {
+        width: 100%;
+        padding: 0px 0px 0.5vw;
+        height: 25vw;
+        transition: all 0s ease-in-out 0s;
+        transform: translateY(-25vw);
+    }
+    
+    .therapies-card:hover .therapies-text {
+        transform: translateY(-25vw);
+    }
+    
+    .therapies-text h4 {
+        height: 15vw;
+        font-size: 4vw;
+        text-align: center;
+        padding: 0vw 0px 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .therapies-card button {
+        width: 60%;
+        height: 8vw;
+        font-size: 3vw;
+        padding: 0.4vw 0px 0.5vw;
+        letter-spacing: 0.1vw;
+    }
+
+    /*-----------------POPUP-----------------*/
+
+    #popup {
+        position: fixed;
+        top: 50%;
+        width: 90%;
+        height: 90%;
+        z-index: 10;
+        border-radius: 0.8vw;
+        border: 2px dashed black;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all 0.3s ease-in-out 0ms;
+    }
+    
+    .nighttime #popup {
+        border-color: white;
+        background-color: #14213D;
+    }
+    
+    #popup.unclicked {
+        transform: translate(-50%, -50%) scale(0.6);
+        opacity: 0;
+        left: -35%;
+    }
+    
+    #popup.clicked {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        left: 50%;
+    }
+    
+    .popup-header {
+        padding: 1.8vw 2vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .popup-header .title {
+        margin: 3vw;
+        padding: 1vw 0px 0px;
+        font-size: 5vw;
+    }
+    
+    .popup-header .close-button {
+        background-image: url("images/icons/close.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        filter: none;
+        width: 6vw;
+        height: 6vw;
+        padding: 0vw 0.6vw;
+        border-radius: 50%;
+        margin: 2vw 3vw;
+        cursor: pointer;
+        user-select: none;
+        transform-origin: center;
+        transition: all 0.3s ease-in-out 0ms;
+    }
+    
+    .nighttime .close-button {
+        filter: invert();
+    }
+    
+    .popup-body {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        overflow-y: scroll;
+    }
+    
+    .popup-body .text {
+        height: 400vw;
+        width: 90%;
+        text-align: justify;
+        padding-right: 0vw;
+        overflow-y: visible;
+    }
+    
+    .popup-body .text * {
+        font-family: var(--text-font);
+        font-size: 3vw;
+        list-style: none;
+    }
+    
+    .popup-body .text li {
+        text-align: left;
+        margin-bottom: 0.4vw;
+    }
+    
+    .popup-body .text li::before {
+        padding-right: 4vw;
+        content: '';
+        background-image: url("images/leaf.png");
+        height: 1vw;
+        width: 1vw;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: 0vw 0.7vw;
+    }
+    
+    .popup-body .img {
+        width: 80%;
+        min-height: 50vw;
+        border-radius: 50px 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 20px solid wheat;
+        box-shadow: 0.4vw 0.15vw 1vw 0.2vw rgba(0, 0, 50, .5);
+    }
+    
+    #popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 9;
+    }
+    
+    #popup-overlay.unclicked {
+        opacity: 0;
+        display: none;
+    }
+    
+    #popup-overlay.clicked {
+        display: block;
+        opacity: 1;
+    }
+    
+    /*-----Árak------*/
+    
+    #arak {
+        width: 95%;
+        height: 165vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .prices {
+        width: 100%;
+        height: 100%;
+        border-radius: 2vw;
+        margin-top: 2vw;
+    }
+    
+    #arak .h2 {
+        width: 100%;
+        height: 25vw !important;
+        padding-top: 6vw !important;
+    }
+    
+    #arak h2 {
+        font-size: 6vw;
+        width: 50%;
+        border-radius: 1.6vw;
+    }
+    
+    .prices h4 {
+        text-align: center;
+        font-size: 2vw;
+        margin: 1vw 20vw 0vw;
+        box-shadow: 0px 15px 10px -2px #9ae19d;
+        border-radius: 20px;
+    }
+    
+    .prices .table {
+        width: 100%;
+    }
+    
+    .prices .tr {
+        border-radius: 0.5vw;
+        margin-bottom: 0.1vw;
+        width: 100%;
+        height: 10vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .prices .tr:nth-child(6), 
+    .prices .tr:nth-child(1){
+        height: 13vw;
+        padding-bottom: 0.5vw;
+    }
+    
+    .prices .td {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        font-size: 3.2vw;
+        font-family: var(--text-font);
+        text-align: center;
+        width: 100vw;
+    }
+    
+    .prices .td:last-child {
+        width: 100%;
+    }
+    
+    .prices .td p {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    /*--------------------------Galéria-------------------------------*/
+    
+    #gallery {
+        align-items: center;
+        justify-content: flex-start;
+        overflow: hidden;
+        height: 110vw !important;
+    }
+    
+    #gallery .h2 {
+        height: 29vw;
+    }
+    
+    .gallery-imgs {
+        width: 100%;
+        height: 70vw;
+        margin: 0px 0px 2vw;
+        padding: 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        animation: scrollerMobile 40s linear infinite;
+        perspective: 100px;
+    }
+    
+    .gallery-imgs:hover {
+        animation-play-state: paused;
+    }
+    
+    .gallery-img {
+        margin: 2vw 2vw 1.5vw;
+        height: 90%;
+        min-width: 100vw;
+        border: 3vw solid white;
+        
+        padding: 1vw;
+        border-radius: 6vw;
+        box-shadow: 0px 0px 30px -10px #000;
+        align-self: center;
+        justify-self: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: 0.2s;
+    }
+    
+    .gallery-img:hover {
+        transform: scale(1.2) translateY(-0.5vw);
+    }
+    
+    /*-----------------------------Kapcsolat---------------------------------*/
+    
+    #contact {
+        height: 180vw !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        background-image: url("images/bgContact.png");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .h2 {
+        height: 30vw;
+    }
+    
+    .contact-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 90%;
+        width: 100%;
+    }
+    
+    .contact-main>div {
+        width: 100%;
+        height: 70vw;
+        margin: 0.2vw;
+        border: 0px;
+        border-radius: 0vw;
+    }
+    
+    .contacts {
+        padding: 1vw 0vw 1vw 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: var(--text-font);
+        background-color: rgba(255, 255, 255, .4);
+    }
+    
+    .nighttime .contacts {
+        background-color: rgba(20, 33, 61, 0.4);
+    }
+    
+    .contacts .textline a, 
+    .contacts .textline {
+        font-size: 6.5vw;
+    }
+    
+    .contacts .textline p {
+        margin: 1vw;
+    }
+    
+    .contacts .icon {
+        height: 8vw;
+        width: 8vw;
+        padding: 0vw;
+        margin-right: 2vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        border-radius: 20px;
+        background-color: var(--nav-buttonColor);
+    }
+    
+    .contact-map iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        border: none;
+    }
+
+    /*------------------------FOOTER------------------------*/
+
+    footer {
+        width: 100%;
+        height: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        user-select: none;
+        background-color: var(--navColor);
+        color: black !important;
+        border-top: 2px solid #11270B;
+    }
+    
+    footer>* {
+        font-size: 3vw;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 1vw 2vw;
+        background-color: var(--nav-buttonColor);
+        border-radius: 2vw;
+        border: 1px solid black;
+    }
+    
+    .nighttime footer {
+        background-color: #1a4301;
+        border-top-color: #aad576;
+    }
+}
+
